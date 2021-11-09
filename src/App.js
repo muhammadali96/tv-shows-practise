@@ -1,10 +1,10 @@
 import "./App.css";
-import DisplayEpisodes from "./components/DisplayEpisodes";
+import SearchedEpisodeList from "./components/SearchedEpisodeList";
 
 function App() {
   return (
     <div className="App">
-      <DisplayEpisodes />
+      <SearchedEpisodeList />
     </div>
   );
 }

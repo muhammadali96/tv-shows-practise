@@ -1,6 +1,4 @@
-import episodes from "../data/episodes.json";
-
-export default function DisplayEpisodes() {
+export default function DisplayEpisodes({ episodes }) {
   return (
     <>
       <h1>This is Level 100 of Tv Shows</h1>
